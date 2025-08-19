@@ -38,11 +38,9 @@ document.addEventListener('keydown', function (event) {
 
 
 function moveDivUnderCommand() {
-  // Get the elements
   var commandLine = document.getElementById("Command_Line");
   var userInputContainer = document.getElementById("userInputContainer");
 
-  // Move the userInputContainer under the commandLine
   commandLine.insertAdjacentElement('afterend', userInputContainer);
 }
 
@@ -57,7 +55,7 @@ userInput.addEventListener('blur', function () {
 });
 
 
-let whoami1 = "<p>My name is Maxwell Stevenson, I am a high school freshman that attends Alta High School, I like everything software, hardware, and rap music</p>"
+let whoami1 = "<p>My name is Maxwell Stevenson, I am a high school junior at Alta Highschool. I'm thinking of becoming a pentester, but anything hacking related would be fine. My best acheivment is probably my website <a>(https://maxwellstevenson.com)</a> or my snowboarding skills. My spare time is spend coding, reading, hacking or snowboarding.</p>"
 
 let help = "<p>Commands:</p><span class='line-break'></span><p>echo- repeats phrases</p><span class='line-break'></span><p>whoami- Who am I? (Pronounced woah-mi)</p><span class='line-break'></span><p>clear- clears all previous commands</p><span class='line-break'></span><p>date- displays the time and date</p>"
 
